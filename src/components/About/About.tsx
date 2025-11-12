@@ -1,9 +1,7 @@
 import { Container } from "./styles";
 import VinayakSingh from "../../assets/VinayakSingh.webp";
-import python from "../../assets/python.svg"
 import java from "../../assets/java.svg"
 import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -23,32 +21,32 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, an enthusiastic Software Engineer skilled in web development, machine learning, and scalable software solutions
+            Hi there! I'm Taseen, an enthusiastic Software Engineer skilled in web development and scalable software solutions
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            I build responsive web applications, fine-tune ML models, and implement robust backend services.
+            I build responsive web applications.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            I also work with CMS platforms like WordPress and Shopify to streamline content management.
+            I also work with CMS platforms like WordPress.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={400}>
           <div className="education">
             <h3>Education:</h3>
-            <h4> Master of Computer Applications (MCA)</h4>
-            <p>Vellore Institute of Technology, Chennai | July 2023 - Present</p>
-            <p>8.09 CGPA</p>
+            <h4> Bachlor's in Computer Science (BSCS)</h4>
+            <p>Government College University, Faisalabad | Sept 2024 - Present</p>
+            <p>3.78 CGPA</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={550}>
           <div className="experience">
-             <h3>Experience:</h3><h4>Software Developer</h4>
-            <p>KIWIS AND BROWNIES IT SOLUTIONS | October 2024 - Present</p>
-            <p>Bangalore, India</p>
+             <h3>Experience:</h3><h4>Worked Remotely as an Intern</h4>
+            <p>The Small Square | June 2025 - August 2025</p>
+            <p>Karachi, Pakistan</p>
           </div>
         </ScrollAnimation>
 
@@ -56,11 +54,6 @@ export function About() {
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
-              <img src={python} alt="python" />
-            </ScrollAnimation>
-          </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.11 * 1000}>
               <img src={java} alt="java" />
@@ -89,11 +82,6 @@ export function About() {
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
               <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.17 * 1000}>
-              <img src={shopify} alt="shopify" />
             </ScrollAnimation>
           </div>
           <div className="hability">
