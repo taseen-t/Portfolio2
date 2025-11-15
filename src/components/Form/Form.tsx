@@ -48,7 +48,7 @@ export function Form() {
       <h2>Get in touch using the form</h2>
       <form onSubmit={handleSubmit}>
         <input
-          placeholder="Email"
+          placeholder="Your Email"
           id="email"
           type="email"
           name="email"
